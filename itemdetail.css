@@ -1,0 +1,117 @@
+.list{
+    padding-top:50px;
+}
+.smallimage-group{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.row{
+    display: flex;
+}
+.smallimg-col{
+    flex-basis: 14%;
+    cursor: pointer;
+
+}
+
+ .marginProduct{
+     margin:2% 0;
+ }
+
+ .cat{
+     color:black;
+     font-size: 20px;
+ }
+
+ .sellproduct select{
+     display:block;
+     padding:5px 10px;
+     width: 400px;
+ }
+
+ .sellproduct input{
+    width:50px;
+    height:40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+ }
+
+ .right{
+     width:600px;
+ }
+
+ .sellproduct input:focus{
+     outline:none;
+ }
+
+ .button{
+     background:blue;
+     opacity:0.5;
+     transition:0.3s all;
+     cursor:pointer;
+     color: white;
+ }
+
+span{
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.leftimage{
+    padding-left: 38px;
+    padding-right: 10px;
+    width:500px;
+}
+
+.sellitem{
+    width:400px;
+    height:400px;
+}
+.smallimage-group{
+    width:600px;
+}
+
+.smallimg-col img{
+    height:80%;
+    padding:0;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#tab{
+    tab-size: 2;
+}
+@media (min-width: 991px) and (max-width: 1199px)
+{
+   
+    .layout1{
+        margin-left:7%;
+     
+    }
+}
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 990px)
+{
+    
+    .layout1{
+        margin-left:7%;
+     
+    }
+}
+/* END ipad */
+
+/* Mobile*/
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .layout1{
+        margin-left:7%;
+     
+    }
+}
+/* END Mobile */
+/* ======================== Other VIEW ======================== */

@@ -1,0 +1,114 @@
+body{
+    background-image: url("Picture/11-0-Color-Day-thumbnails.jpg");
+    background-size: cover;
+}
+
+.forgotpass{
+    background-color: aliceblue;
+    opacity: 0.8s;
+    width:400px;
+    color:black;
+    padding:40px;
+    box-shadow:30px 40px 30px #878383;
+    text-align: center;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 90px;
+
+}
+.forgotpass-email{
+    display: block;
+    margin:25px auto;
+    background:#b5b5b5;
+    padding:5px;
+    outline:none;
+    color:black;
+}
+
+.forgotpass input[type="email"]{
+    border:2px black solid;
+    width:130px;
+}
+
+.forgotpass input[type="submit"]{
+    border:2px solid;
+    cursor:pointer;
+    width:50px;
+    height:30px;
+}
+
+.forgotpass input[type="email"]:focus{
+    width:300px;
+    border-color: red;
+    transition:0.4s;
+}
+
+.forgotpass input[type="submit"]:hover{
+    background-color: violet;
+    transition:0.4s;
+}
+
+.forgotpass img{
+    font-size: 50px;
+    display: inline;
+    float:left;
+    width:80px;
+    height:50x;
+    border-radius: 50%;
+    display:flex;
+}
+
+.forgotpass h1{
+    text-align: center;
+    display:flex;
+}
+.forgotpass p:last-child{
+    text-align: left;
+}
+@media (min-width: 991px) and (max-width: 1199px)
+{
+   
+    .forgotpass{
+        margin-left:43%;
+  
+    }
+    body{
+        background-image: url("Picture/11-0-Color-Day-thumbnails.jpg");
+        background-size: 1800px ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px)
+{
+    
+  
+    .forgotpass{
+        margin-left:43%;
+  
+    }
+    body{
+        background-image: url("Picture/11-0-Color-Day-thumbnails.jpg");
+        background-size: 1800px ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+/* END ipad */
+
+/* Mobile*/
+@media (min-width: 320px) and (max-width: 767px)
+{
+
+    .forgotpass{
+        margin-left:43%;
+  
+    }
+    body{
+        background-image: url("Picture/11-0-Color-Day-thumbnails.jpg");
+        background-size: 1800px ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

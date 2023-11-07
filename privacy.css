@@ -1,0 +1,53 @@
+
+.leftbar h2{
+    font-size:60px;
+    padding:2% 5%;
+    margin: 3%;
+    word-wrap: break-word;
+    border: 8px dashed;
+    line-height: 130px;
+    animation-name: word;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color:#71d9b1;
+    box-shadow: 25px 30px 25px #888888 ;
+}
+
+@keyframes word{
+    50% {color: red;}
+    100%{color: black;}
+}
+
+.leftbar h3{
+    margin-left:5%;
+    margin-bottom:2%;
+    font-size:50px;
+    word-wrap: break-word;
+}
+
+.leftbar p{
+    margin-left: 5%;
+    font-size: 20px;;
+    word-wrap: break-word;
+    width:830px;
+}
+
+.leftbar ul{
+        list-style-type: circle;
+        display:block;
+      
+}
+#pnc{
+    list-style-type: circle;
+    display:block;
+    padding:5px;
+    margin-left: 2%;
+    border-left: 5px solid;
+    animation-name: pnc;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes pnc{
+    50%{border-color:red;}
+    100%{border-color:black;}
+  }

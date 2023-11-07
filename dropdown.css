@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0;
+}
+
+body{
+    background-color: blueviolet;
+    margin-left:25opx;
+    margin-top: 20px;
+}
+
+#container ul ul{
+    display: none;
+}
+#container ul li:hover >ul{
+
+    display:block;
+}
+
+
+#container ul li:hover{
+    background-color: aliceblue;
+} 
+
+#container ul{
+    list-style-type: none;
+    min-width: 800px;
+    max-width: 1000px;
+}
+
+#container ul li{
+    background-color: aqua;
+    width:150px;
+    border:1px solid white;
+    height:10px;
+    line-height:50px;
+    text-align: center;
+    float:left;
+    color:white ;
+    font-size:19px;
+}
+#contianer{
+    min-width: 800px;
+    max-width: 1000px;
+    
+}

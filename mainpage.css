@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {box-sizing: border-box;}
+*{font-family: 'Bebas Neue', cursive, sans-serif;}
+body {font-family: Verdana, sans-serif;}
+.slidepage {display: none;}
+img {vertical-align: middle;}
+
+
+body{
+    margin:0px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("Picture/images.jfif");    
+    width: auto ;  
+      
+    }
+
+
+.slide{
+
+    margin:0 5%;
+}
+
+.text{
+    color: antiquewhite;
+    font-size: 15px;
+    padding: 18px 12px;
+    bottom:90px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color:blueviolet
+}
+
+/*num 1/5*/
+.num{
+    color: aliceblue;
+    font-size: 15px;
+    padding:18px 12px;
+}
+.dot{
+    background-color: blanchedalmond;
+    padding-bottom: 0;
+    height:5px;
+    width:35px;
+    border-radius: 10%;
+    display: inline-block;
+    bottom:50em;
+    text-align:center;
+   
+}
+
+.active{
+    background: #717171;
+}   
+.animation{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation:fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+  /* layoutpage */
+  .showall{
+     margin-top:350px;
+      text-align: right;
+  }
+
+  .showall a{
+    text-decoration: none;
+    color:black;
+  }
+
+  .showall a:hover{
+      color:aliceblue;
+      background-color: black;
+  }
+
+  .layout1{
+      border: 5px inset;
+      width:1100px;
+      height:2000px;
+      border-color: whitesmoke;
+      margin-left:auto;
+      margin-right: auto;
+      background-color:aliceblue;
+      min-width: 1000px;
+  }
+  
+ 
+
+  .layer1{
+      max-width: 1000px;
+      margin-left:10px;
+      padding:1%;
+      float:left;
+      display:inline;
+      background-color: white;
+     
+  }
+
+  .layerprice{
+      text-align: center;
+
+  }
+  .layertext1{
+      font-size:12px;
+      text-align: center;
+
+  }
+
+  .layer1:hover{
+      background-color: #717171;
+      border:2px red;
+  }
+
+  .layer2:hover{
+    background-color: #717171;
+    border:2px red;
+}
+
+.layertext button{
+   float: right;
+}
+
+.testtest {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.popular{
+    height:850px;
+    margin:2%;
+}
+.popular img{
+    width:1047px;
+}
+.popularlist{
+    border:3px solid;
+    background-image: url("Picture/f9af3e0e95347f769b0d785d3afbfa09.jfif");
+    height:40px;
+    font-size: 20px;
+    text-align: center;
+    animation-name: limitsale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes limitsale{
+    0%{color:yellow;}
+    50%{color:red;}
+    100%{color:orange;}
+}
+.popularblock{
+  width:auto;
+  height:170px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #5e5d5d;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  top:230%;
+  left:20%;
+  padding:1%;
+ 
+}
+
+.popularblock h4{
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}
+#discountprice{
+    color:black;
+    animation-name: pplist;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pplist{
+    0%{color:yellow;}
+    50%{color:red;}
+    100%{color:white;}
+}
+@keyframes pnc{
+  50%{border-color:red;}
+  100%{border-color:black;}
+}
+#b4{
+font-size: 30px;
+}
+#b4 del{
+    color:red;
+}
+
+#after{
+    font-size: 20px;
+}
+
+#buy{
+    font-size: 30px;
+    color:aqua;
+    animation-name: buy;
+    text-decoration: none;
+}
+
+
+/* ======================== Other VIEW ======================== */
+/* ipad pro view */
+@media (min-width: 991px) and (max-width: 1199px)
+{
+   
+    .layout1{
+        margin-left:7%;
+     
+    }
+}
+/* END ipad pro view */
+
+
+
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 990px)
+{
+    
+    .layout1{
+        margin-left:7%;
+     
+    }
+}
+/* END ipad */
+
+/* Mobile*/
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .layout1{
+        margin-left:7%;
+     
+    }
+}
+/* END Mobile */
+/* ======================== Other VIEW ======================== */

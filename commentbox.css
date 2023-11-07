@@ -1,0 +1,58 @@
+legend{
+    font-size: 30px;
+}
+
+.commentbox{
+    width:600px;
+    border: 5px solid;
+    padding: 15px 10px;
+    height:1000px;
+    width:900px;
+    border-color: orange;
+    margin:2%;
+    background-color: white;
+}
+
+fieldset form{
+    height: 900px;
+    width:700px;
+  
+}
+
+textarea{
+    width:80%;
+    height: 10%;
+    background-color: #cecccf;
+}
+
+.cmtbutton input{
+    width:80px;
+    height:30px;
+}
+
+button{
+    width:80px;
+    height:30px;
+}
+
+button:hover{
+    color:whitesmoke;
+    background-color:#8da7eb;
+}
+
+.cmtbutton input:hover{
+    color:whitesmoke;
+    background-color:#8da7eb;
+}
+
+form img{
+    height:300px;
+    width:400px;
+    margin-top: 10%;
+    margin-left: 10%;
+    opacity: 0.5s;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    display:inline-block;
+  
+}

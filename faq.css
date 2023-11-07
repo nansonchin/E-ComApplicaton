@@ -1,0 +1,131 @@
+body{
+    background-color: #eee;
+}
+
+
+.containerfaq{
+    border: 2px solid;
+    background-size: cover;
+    background-position: 0%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: 118%;
+}
+
+h2{
+    position: absolute;
+}
+.containerfaq h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:black;
+    position: static;
+    width:23rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    border: 2px dotted;
+    background-image: url("Picture/d9f3787d8a6aed86dd3f7a60abb46ce0.gif");
+}
+
+.containerfaq h2::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    right:12px;
+    width:67px;
+    height:2px;
+    background-color: pink;
+
+}
+
+.faqitem{
+    margin-bottom: 30%;
+    width: 60%;
+    padding: 0 5px;
+    border:2px solid #cb23fa;
+    cursor:pointer;
+    border-bottom:50px;
+    display: flex;
+    margin:0;
+    align-items: center;
+    transition:all .5s ease-in; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6db5ff;
+}
+
+.icon img{
+    margin: 0 10px 0 0;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    float:left;
+    transition:all .3s ease-in;
+}
+
+.active .icon img{
+    background:url("icon/minus.jpg") no-repeat 8px;
+}
+
+.faqitem h5{
+    font-size: 22px;
+    margin:0;
+    padding: 3px 0 0 0;
+    font-weight: normal;
+    color:blue;
+
+}
+
+.faqparagraph{
+    overflow: hidden;
+    padding-left: 20px;
+    border-left: 3px solid blue;
+    background-color: azure;
+    margin: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    max-height: 0;
+    transition:all .3s ease-in-out;
+    margin-bottom: 4%;
+   
+
+}
+
+.faqparagraph:hover{
+    width:100px;
+    height:100px;
+}
+
+@media (min-width: 991px) and (max-width: 1199px)
+{
+   
+    .list{
+        margin-left:7%;
+     
+    }
+}
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 990px)
+{
+    
+    .list{
+        margin-left:7%;
+     
+    }
+}
+/* END ipad */
+
+/* Mobile*/
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .list{
+    margin-left:7%;
+ 
+}
+}

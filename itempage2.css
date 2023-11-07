@@ -1,0 +1,133 @@
+
+* {box-sizing: border-box;}
+*{font-family: 'Bebas Neue', cursive, sans-serif;}
+body {font-family: Verdana, sans-serif;}
+.slidepage {display: none;}
+img {vertical-align: middle;}
+
+body{
+    margin:0px;
+    background-image: url("Picture/images.jfif");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-width: 1000px;
+    min-height: 800px;
+ 
+    }
+
+    .list{
+        border: 5px inset;
+        width:1100px;
+        height:2000px;
+        border-color: whitesmoke;
+        margin-left:auto;
+        margin-right: auto;
+        background-color:aliceblue ;
+       
+    }
+    
+    .list2{
+        border: 5px inset;
+        width:1100px;
+        height:2000px;
+        border-color: whitesmoke;
+        margin-left:auto;
+        margin-right: auto;
+        background-color:aliceblue ;
+    }
+  
+    .pageitem1{
+  
+        margin-top:3%;
+        margin-left:3%;
+        padding:0;
+        float:left;
+        display:inline;
+        background-color: white;
+        margin-bottom:1%;
+        width:210px;
+    }
+
+    
+    .pageitem2{
+  
+        margin-top:2%;
+        margin-left:3%;
+        padding:1%;
+        float:left;
+        display:inline;
+        background-color: white;
+        width:210px;
+    }
+  
+    .layerprice{
+        text-align: center;
+  
+    }
+    .layertext1{
+        font-size:12px;
+        text-align: center;
+        word-wrap: break-word;
+        width:80%;
+        height:30px;
+    }
+  
+    .pageitem1:hover{
+        background-color: #717171;
+        border:2px red;
+        cursor: pointer;
+    }
+  
+    .pageitem2:hover{
+      background-color: #717171;
+      border:2px red;
+  }
+  
+  .layertext button{
+     float: right;
+  }
+
+  .next{
+      padding-top: 10%;
+      padding-left:90%;
+      display:flex;
+      justify-content: space-between;
+   
+  }
+
+  #pageselect a{
+      text-decoration: none;
+  }
+
+
+  @media (min-width: 991px) and (max-width: 1199px)
+{
+   
+    .list{
+        margin-left:7%;
+     
+    }
+}
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 990px)
+{
+    
+    .list{
+        margin-left:7%;
+     
+    }
+}
+/* END ipad */
+
+/* Mobile*/
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .list{
+    margin-left:7%;
+ 
+}
+}
+/* END Mobile */
+/* ======================== Other VIEW ======================== */

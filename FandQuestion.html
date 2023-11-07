@@ -1,0 +1,184 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Footer.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
+        <link rel="stylesheet" href="searchbar.css">
+        <link rel="stylesheet" href="noitemupload.css">
+        <link rel="stylesheet" href="itemshowall.css">
+        <link rel="stylesheet" href="faq.css">
+        <link rel="shortcut icon" href="icon/Logo2.PNG" />
+        <title>Mondox</title>
+    </head>
+    <body>
+
+        <div id="boxWrapper">
+            <div class="leftimg">
+                <a href="MainPage.html"><img src="icon/Logo.PNG" width="300" height="150"></a>
+            </div>
+    
+            <div class="bar">
+                <div class="sign">
+                    <a href="Login.html" class="login">Log In</a>
+                    <a href="Signin.html" class="signin">Create an Account</a>
+                    <ul>
+                        <li class="cart">
+                            <a href="Shopcarte.html">
+                               <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div id="container"> 
+                    <ul>
+                        <li><a href="MainPage.html">Home</li></a>
+                        <li>Desktop 
+                            <ul class="containerul" >
+                                <li><a href="Desktop1_PC.html">PC Case</li></a>
+                                <li><a href="Desktop2Router.html">Router</li></a>
+                                <li><a href="Desktop_Graphic.html">Graphic Cards</li></a>
+                                <li><a href="Desktop_Monitor.html">Monitor</li></a>
+                                <li><a href="itemshowall.html">More</li></a>
+                            </ul>
+                        </li>
+            
+            
+                        <li>Laptop
+                            <ul class="containerul" >
+                                <li><a href="noitemupload.html">Asus</li></a>
+                                <li><a href="noitemupload.html">Dell</li></a>
+                                <li><a href="noitemupload.html">HP</li></a>
+                                <li><a href="noitemupload.html">Acer</li></a>
+                                <li><a href="itemshowall.html">More</li></a>
+                            </ul>     
+                        </li>
+    
+                        <li>Accessories
+                            <ul class="containerul" >
+                                <li id="containerhyper"><a href="Accessories_cooling.html">Cooling Fan</li></a>
+                                <li id="containerhyper"><a href="Accessories_Deco.html">Decoration</li></a>
+                                <li id="containerhyper"><a href="Accessories_sound.html">Sound</li></a>
+                                <li id="containerhyper"><a href="itemshowall.html">More Accessories</li></a>
+                            </ul>
+                        </li>
+            
+                        <li><a href="aboutus.html">About Us</li></a>
+                        <li><a href="FandQuestion.html">FAQ's</li></a>
+                    </ul>
+                </div>
+       
+        
+        
+                <div class="searchbar">
+                        <input type="text" class="input" placeholder="Search Here">
+                    <div class="search"> 
+                        <a href="" class= search>&#128269;</a>
+                    </div>
+                </div> 
+            </div>
+    
+    
+        </div>
+    
+
+        <div class="list">
+
+
+        <!-- FAQ -->
+        <div class="containerfaq">
+            <h2>FAQ</h2>
+            <div class="faqitem">
+                <div class="icon"><img src="icon/plus.jpg"></div>
+                <h5>Payment</h5>
+            </div>
+            <div class="faqparagraph">
+                <p>What payment methods?</p>
+                <p>How do I get a installment plan?</p>
+                <p>What currencies can I use?</p>
+            </div>
+
+            <div class="faqitem">
+                <div class="icon"><img src="icon/plus.jpg"></div>
+                <h5>Delivery</h5>
+            </div>
+            <div class="faqparagraph">
+                <p>Can I track the status of my order?</p>
+                <p>How long does the delivery takes?</p>
+                <p>I didn't receive my product</p>
+                <p>What delivery carrier you are using?</p>
+            </div>
+
+            <div class="faqitem">
+                <div class="icon"><img src="icon/plus.jpg"></div>
+                <h5>Returns & Refunds</h5>
+            </div>
+            <div class="faqparagraph">
+                <p>How do I return a product?</p>
+                <p>Where is my refund?</p>
+                <p>Received product incorrect</p>
+                <p>Product received but broken?</p>
+
+            </div>
+
+            <div class="faqitem">
+                <div class="icon"><img src="icon/plus.jpg"></div>
+                <h5>My Account</h5>
+            </div>
+            <div class="faqparagraph">
+                <p>How do I reset my password?</p>
+                <P>How can i I remove my personal information from your database?</P>
+            </div>
+        </div>
+
+        <script>
+            var acc =  document.getElementsByClassName('faqitem');
+            var i;
+            var len=acc.length;
+            for(i=0;i<len;i++){
+                acc[i].addEventListener('click',function(){
+                    this.classList.toggle('active');
+                    var faqparagraph=this.nextElementSibling;
+                    if(faqparagraph.style.maxHeight){
+                        faqparagraph.style.maxHeight=null;
+                    } else{
+                        faqparagraph.style.maxHeight=faqparagraph.scrollHeight +'px'
+                    }
+
+                })
+            }
+        </script>
+</div>
+  <!-- footer -->
+  <footer>
+    <div class="footer">
+        <div class="copyright">
+        <p>@2021copyright</p>
+        <a id="privacy" href="privacy.html">Privacy and Policy</a>
+    </div>
+       
+    <ul class="contact">
+         <div id="followus">Follow Us</div>
+            <li class="contactlink">
+                <a class="contactlink"href="" >Facebook</a>
+             <br>
+            </li>
+            
+            <li class="contactlink">
+                 <a class="contactlink" href="">Twitter</a>
+            </li>
+            <li class="contactlink">
+                <a class="contactlink" href="mailto:someone@yoursite.com">Email Us</a>
+            </li>
+
+    </ul>
+    </div>
+
+    </div>
+</footer>
+
+       
+  
+    </body>
+</html>

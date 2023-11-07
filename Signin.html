@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="searchbar.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
+        <link rel="stylesheet" href="singin.css"/>
+        <link rel="shortcut icon" href="icon/Logo2.PNG" />
+        <title>Mondox</title>
+    </head>
+    <body>
+
+        <div id="boxWrapper">
+            <div class="leftimg">
+                <a href="MainPage.html"><img src="icon/Logo.PNG" width="300" height="150"></a>
+            </div>
+    
+            <div class="bar">
+                <div class="sign">
+                    <a href="Login.html" class="login">Log In</a>
+                    <a href="Signin.html" class="signin">Create an Account</a>
+                    <ul>
+                        <li class="cart">
+                            <a href="Shopcarte.html">
+                               <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div id="container"> 
+                    <ul>
+                        <li><a href="MainPage.html">Home</li></a>
+                        <li>Desktop 
+                            <ul class="containerul" >
+                                <li><a href="Desktop1_PC.html">PC Case</li></a>
+                                <li><a href="Desktop2Router.html">Router</li></a>
+                                <li><a href="Desktop_Graphic.html">Graphic Cards</li></a>
+                                <li><a href="Desktop_Monitor.html">Monitor</li></a>
+                                <li><a href="itemshowall.html">More</li></a>
+                            </ul>
+                        </li>
+            
+            
+                        <li>Laptop
+                            <ul class="containerul" >
+                                <li><a href="noitemupload.html">Asus</li></a>
+                                <li><a href="noitemupload.html">Dell</li></a>
+                                <li><a href="noitemupload.html">HP</li></a>
+                                <li><a href="noitemupload.html">Acer</li></a>
+                                <li><a href="itemshowall.html">More</li></a>
+                            </ul>     
+                        </li>
+    
+                        <li>Accessories
+                            <ul class="containerul" >
+                                <li id="containerhyper"><a href="Accessories_cooling.html">Cooling Fan</li></a>
+                                <li id="containerhyper"><a href="Accessories_Deco.html">Decoration</li></a>
+                                <li id="containerhyper"><a href="Accessories_sound.html">Sound</li></a>
+                                <li id="containerhyper"><a href="itemshowall.html">More Accessories</li></a>
+                            </ul>
+                        </li>
+            
+                        <li><a href="aboutus.html">About Us</li></a>
+                        <li><a href="FandQuestion.html">FAQ's</li></a>
+                    </ul>
+                </div>
+       
+        
+        
+                <div class="searchbar">
+                        <input type="text" class="input" placeholder="Search Here">
+                    <div class="search"> 
+                        <a href="" class= search>&#128269;</a>
+                    </div>
+                </div> 
+            </div>
+    
+    
+        </div>
+    
+        
+
+        <form action="" class="signin1" name="createacc" onsubmit="formcreate()" >
+            <h1>Sign In</h1>
+            <p>Username: <input class="sign1"  type="text" name="fuser"/></p>
+            <p>Password: <input class="sign1" id="1stpass" type="password" name="fpass" onkeyup="confirm()"/></p>
+            <p>Confirm-Password: <input class="sign1" id="2ndpass" type="password" name="fpassword" onkeyup="confirm()"/></p>
+            <div class="match">
+            <span id="message"></span>
+            </div>
+            <p>Email: <input class="sign1"  type="email" name="femail"/></p>
+            <p><a href="Login.html">Log In</a></p>
+
+            <button class="back1"  value="Back" onclick="javascript:history.go(-1)">Back</button></a>
+
+            <input id="submit" type="submit" value="Register"/>
+
+        </form>
+        
+        <script src="main.js"></script>
+        <script src="main2page.js"></script>
+        <script src="formsubmit.js"></script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+#table{
+    width:100%;
+}
+
+.carttest{
+    display:flex;
+}
+
+.carttest img{
+    width:200px;
+}
+
+.delete{
+    width:80px;
+    height:30px;
+}
+.smalltext{
+    width:200px;
+    text-align: center;
+    padding-top:60px;
+    font-size: 20px;
+}
+#first{
+    background: orange;
+}
+td{
+    font-size: 20px;
+}
+.table2{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.table2 table{
+    width:300px;
+    font-size: 20px;
+}
+td:last-child{
+    text-align: right;
+}
+
+

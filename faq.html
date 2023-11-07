@@ -1,0 +1,157 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="faq.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="searchbar.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
+        <link rel="shortcut icon" href="icon/Logo2.PNG" />
+        <title>Mondox</title>
+    </head>
+
+    <body>
+
+        <!-- header -->
+        <div class="bar">
+            <div class="sign">
+                <a href="" class="login">Log In</a>
+                <a href="" class="signin">Sign In</a>
+            </div>
+    
+            <div id="container">
+             <ul>
+                <li><a href="">Home</li></a>
+                <li>Desktop 
+                    <ul class="containerul" >
+                      <li><a href="">Asus</li></a>
+                      <li><a href="">Dell</li></a>
+                      <li><a href="">HP</li></a>
+                      <li><a href="">Acer</li></a>
+                   </ul>
+                 </li>
+    
+                </li>
+    
+                <li>Laptop
+                   <ul class="containerul" >
+                      <li><a href="">Asus</li></a>
+                      <li><a href="">Dell</li></a>
+                      <li><a href="">HP</li></a>
+                      <li><a href="">Acer</li></a>
+                   </ul>     
+                </li>
+                <li>Accessories
+                   <ul class="containerul" >
+                    <li id="containerhyper"><a href="">Asus</li></a>
+                    <li id="containerhyper"><a href="">Dell</li></a>
+                    <li id="containerhyper"><a href="">HP</li></a>
+                    <li id="containerhyper"><a href="">Acer</li></a>
+                   </ul>
+                </li>
+    
+                <li><a href="aboutus.html">About Us</li></a>
+            </ul>
+             </div>
+    
+       
+    
+        <div class="searchbar">
+            <input type="text" class="input" placeholder="Search Here">
+        <div class="search"> 
+           <a href="" class= search><i class="fas fa-search"></i></a>
+        </div>
+    </div> 
+</div>
+
+<!-- FAQ -->
+        <div class="containerfaq">
+            <h2>FAQ</h2>
+            <div class="faqitem">
+                <div class="icon"><img src="icon/plus.jpg"></div>
+                <h5>What is</h5>
+            </div>
+            <div class="faqparagraph">
+                <p>Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
+            </div>
+
+            <div class="faqitem">
+                <div class="icon"><img src="icon/plus.jpg"></div>
+                <h5>What is this you menas??</h5>
+            </div>
+            <div class="faqparagraph">
+                <p>Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
+            </div>
+
+            <div class="faqitem">
+                <div class="icon"><img src="icon/plus.jpg"></div>
+                <h5>What is</h5>
+            </div>
+            <div class="faqparagraph">
+                <p>Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
+            </div>
+
+            <div class="faqitem">
+                <div class="icon"><img src="icon/plus.jpg"></div>
+                <h5>What is</h5>
+            </div>
+            <div class="faqparagraph">
+                <p>Wwwwwwwwwwwww</p>
+            </div>
+        </div>
+
+        <script>
+            var acc =  document.getElementsByClassName('faqitem');
+            var i;
+            var len=acc.length;
+            for(i=0;i<len;i++){
+                acc[i].addEventListener('click',function(){
+                    this.classList.toggle('active');
+                    var faqparagraph=this.nextElementSibling;
+                    if(faqparagraph.style.maxHeight){
+                        faqparagraph.style.maxHeight=null;
+                    } else{
+                        faqparagraph.style.maxHeight=faqparagraph.scrollHeight +'px'
+                    }
+
+                })
+            }
+        </script>
+
+
+<!-- footer -->
+<footer>
+    <div class="footer">
+        <div class="copyright">
+        <p>@2021copyright</p>
+        <a id="privacy" href="privacy.html">Privacy and Policy</a>
+    </div>
+       
+    <ul class="contact">
+         <div id="followus">Follow Us</div>
+            <li class="contactlink">
+                <a class="contactlink"href="" >Facebook</a>
+             <br>
+            </li>
+            
+            <li class="contactlink">
+                 <a class="contactlink" href="">Twitter</a>
+            </li>
+            <li class="contactlink">
+                <a class="contactlink" href="mailto:someone@yoursite.com">Email Us</a>
+            </li>
+
+    </ul>
+    </div>
+
+    </div>
+
+
+    
+    
+</footer>
+
+
+    </body>
+</html>
+

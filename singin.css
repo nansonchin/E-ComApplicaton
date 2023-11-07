@@ -1,0 +1,130 @@
+body{
+    background-image: url("Picture/11-0-Color-Day-thumbnails.jpg");
+    background-size: cover;
+   
+}
+.signin1{
+    background-color: aliceblue;
+    opacity:0.8s;
+    width:400px;
+    color:black;
+    padding:40px;
+    box-shadow: 30px 40px 30px #878383;
+    text-align: center;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.sign1{
+    display: block;
+    margin: 25px auto;
+    background:#b5b5b5;
+    padding: 5px;
+    outline: none;
+    color:black;
+    margin-top:0;
+}   
+
+.signin1 input[type="text"], .signin1 input[type="password"], .signin1 input[type="email"]{
+    border:2px black solid;
+    width:130px;
+}
+
+.signin1 input[type="submit"]{
+    border:2px solid;
+    cursor:pointer;
+    width:50px;
+    height:30px;
+}
+
+.signin1 input[type="text"]:focus{ 
+    width:300px;
+    border-color: red;
+    transition:0.4s;
+}
+
+.signin1 input[type="password"]:focus{ 
+    width:300px;
+    border-color: red;
+    transition:0.4s;
+}
+.signin1 input[type="email"]:focus{ 
+    width:300px;
+    border-color: red;
+    transition:0.4s;
+}
+.signin1 input[type="submit"]:hover {
+    background-color: violet;
+    transition: 0.4s;
+}
+
+.back{
+    border:2px solid;
+    cursor:pointer;
+    width:50px;
+    height:30px;
+    margin-right:0;
+}
+
+.back:hover{
+    background-color: violet;
+    transition: 0.5s;
+}
+.match{
+    margin-top:0;
+    margin-bottom: 10px;
+ 
+}
+
+@media (min-width: 991px) and (max-width: 1199px)
+{
+
+    .signin1{
+        margin-left:43%;
+        margin-top: 5%;
+  
+    }
+    body{
+        background-image: url("Picture/11-0-Color-Day-thumbnails.jpg");
+        background-size: 1500px ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px)
+{
+    
+  
+    .signin1{
+        margin-left:43%;
+        margin-top: 5%;
+  
+    }
+    body{
+        background-image: url("Picture/11-0-Color-Day-thumbnails.jpg");
+        background-size: 1700px ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    }
+}
+
+/* END ipad */
+
+/* Mobile*/
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .signin1{
+        margin-left:43%;
+        margin-top: 5%;
+  
+    }
+    body{
+        background-image: url("Picture/11-0-Color-Day-thumbnails.jpg");
+        background-size: 1900px ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+}

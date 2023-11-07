@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="searchbar.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
+        <link rel="stylesheet" href="login.css"/>
+        <link rel="shortcut icon" href="icon/Logo2.PNG" />
+        <title>Mondox</title>
+    </head>
+    <body>
+    
+        <!-- <audio controls loop autoplay >
+            <source src="生殺与奪の権を他人に握らせるな鬼滅の刃" type="mp3">
+        </audio> -->
+        <div id="boxWrapper">
+            <div class="leftimg">
+                <a href="MainPage.html"><img src="icon/Logo.PNG" width="300" height="150"></a>
+            </div>
+    
+            <div class="bar">
+                <div class="sign">
+                    <a href="Login.html" class="login">Log In</a>
+                    <a href="Signin.html" class="signin">Create an Account</a>
+                    <ul>
+                        <li class="cart">
+                            <a href="Shopcarte.html">
+                               <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div id="container"> 
+                    <ul>
+                        <li><a href="MainPage.html">Home</li></a>
+                        <li>Desktop 
+                            <ul class="containerul" >
+                                <li><a href="Desktop1_PC.html">PC Case</li></a>
+                                <li><a href="Desktop2Router.html">Router</li></a>
+                                <li><a href="Desktop_Graphic.html">Graphic Cards</li></a>
+                                <li><a href="Desktop_Monitor.html">Monitor</li></a>
+                                <li><a href="itemshowall.html">More</li></a>
+                            </ul>
+                        </li>
+            
+            
+                        <li>Laptop
+                            <ul class="containerul" >
+                                <li><a href="noitemupload.html">Asus</li></a>
+                                <li><a href="noitemupload.html">Dell</li></a>
+                                <li><a href="noitemupload.html">HP</li></a>
+                                <li><a href="noitemupload.html">Acer</li></a>
+                                <li><a href="itemshowall.html">More</li></a>
+                            </ul>     
+                        </li>
+    
+                        <li>Accessories
+                            <ul class="containerul" >
+                                <li id="containerhyper"><a href="Accessories_cooling.html">Cooling Fan</li></a>
+                                <li id="containerhyper"><a href="Accessories_Deco.html">Decoration</li></a>
+                                <li id="containerhyper"><a href="Accessories_sound.html">Sound</li></a>
+                                <li id="containerhyper"><a href="itemshowall.html">More Accessories</li></a>
+                            </ul>
+                        </li>
+            
+                        <li><a href="aboutus.html">About Us</li></a>
+                        <li><a href="FandQuestion.html">FAQ's</li></a>
+                    </ul>
+                </div>
+       
+        
+        
+                <div class="searchbar">
+                        <input type="text" class="input" placeholder="Search Here">
+                    <div class="search"> 
+                        <a href="" class= search>&#128269;</a>
+                    </div>
+                </div> 
+            </div>
+    
+    
+        </div>
+    
+     
+
+        <!--Login-->
+
+            <form action="" class="login1" name="loginform" onsubmit="required()">
+                <h1>Log In</h1>
+                <input class="input1"  type="text" placeholder="Username" name="fname" />
+                <input class="input1"  type="password" placeholder="Password" name="fpassword"/>
+
+                <p><a href="forgotpass.html">Forget Password? Click Here</a></p>
+
+                <p><a href="Signin.html">Sign In</a></p>
+
+                <button class="back"  value="Back" onclick="javascript:history.go(-1)">Back</button></a>
+
+                <!-- <p class="back"><input  type="button" value="Back" onClick="javascript:history.go(-1)" /></p> -->
+
+                <!-- <script>
+                function goBack() {
+                window.history.back();
+                }
+                </script> -->
+
+                <input id="sendmail" type="submit" value="Log In"/>
+
+            </form>
+
+
+            <script src="main.js"></script>
+            <script src="main2page.js"></script>
+            <script src="formsubmit.js"></script>
+    </body>
+</html>
